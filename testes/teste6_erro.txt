@@ -1,0 +1,8 @@
+{* Teste 6B: Programa com simbolo invalido e string malformada *}
+program testeErro
+  valor, taxa : float;
+  opcao @ : int; {* Erro lexico na linha 4: caracter invalido '@' *}
+begin
+  valor = 100.0;
+  write("String nao fechada); {* Erro lexico na linha 7: aspas nao fechadas *}
+end.

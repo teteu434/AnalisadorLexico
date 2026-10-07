@@ -1,0 +1,18 @@
+{* Teste 6A: Programa valido para teste do analisador lexico *}
+program testeSeis
+  x, y, resultado : float;
+  contador : int;
+  status : char;
+begin
+  contador = 0;
+  x = 10.5;
+  y = 20.0;
+
+  while (contador < 5 && x <= y) do
+    x = x + 1.5;
+    contador = contador + 1;
+  end;
+
+  write("Resultado final do calculo:");
+  write(x);
+end.
